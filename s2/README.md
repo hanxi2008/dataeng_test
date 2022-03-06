@@ -37,3 +37,6 @@ WHERE transaction_date >= date_trunc('month', CURRENT_DATE);
 group by car.Manufacturer
 order by 2 desc 
 limit 3;
+
+ER graph:
+![er](./db.jpg)
